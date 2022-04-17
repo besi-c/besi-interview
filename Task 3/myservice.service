@@ -1,0 +1,14 @@
+[Unit]
+Description=index.js 
+After=network-online.target
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=ubuntu
+ExecStart=/usr/bin/server/index.js
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
