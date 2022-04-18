@@ -12,4 +12,5 @@ def Read(): #this gives me one frame.
     return tmp
 
 def Analyze(frames):
+>>>>>>> a7786dcae0689cdb6d97bd0743aaeb7ccd336033
     received_values.append(frames)

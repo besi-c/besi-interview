@@ -42,4 +42,5 @@ else{
     printf("Error with getting interfaces");
 }
 return 0;
+>>>>>>> a7786dcae0689cdb6d97bd0743aaeb7ccd336033
 }
