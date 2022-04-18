@@ -49,6 +49,6 @@ def main():
             #combine and analzye does the work
             firstCall = curTime
     pass
-#
+
 if __name__ == "__main__":
     main()
