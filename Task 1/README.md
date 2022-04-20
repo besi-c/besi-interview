@@ -12,3 +12,5 @@ a continuous stream of data provided by the Read function
 
 ## Task Overview
 While Read provides non-null data, read data every 0.5 seconds and Analyze the data.
+
+Personal Note: If this is to be interpreted as "Read() runs until it generates a value that is Null, then this is basically an infinitely looping program. Read() runs and generates values between 1 and 10 and appends them to the generated values array, at the end of .5 seconds, Read() stops and analyze starts"

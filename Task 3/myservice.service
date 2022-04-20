@@ -1,0 +1,15 @@
+[Unit]
+Description=index
+After=network.target
+StartLimitBurst=3
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /usr/bin/server/index.js
+User=ubuntu
+WorkingDirectory= /usr/bin/server
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
